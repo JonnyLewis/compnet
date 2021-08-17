@@ -1,5 +1,5 @@
 # CompNet
-CompNet: Competitive Neural Network for Palmprint Recognition Using Learnable Gabor Kernels [[paper]](https://ieeexplore.ieee.org/document/9512475)
+[CompNet: Competitive Neural Network for Palmprint Recognition Using Learnable Gabor Kernels](https://ieeexplore.ieee.org/document/9512475)
 
 <img src="./res/compnet.png" alt="Framework of the CompNet" style="zoom:80%;" />
 
@@ -116,7 +116,7 @@ python    getEER.py   ./rst/veriEER/scores_xxx.txt    scores_xxx
 ```
 The `.pth` file will be generated at the current folder, and all the other results will be generated in the `./rst` folder.
 
-
+## 5. Framework
 
 ```shell
 compnet(
