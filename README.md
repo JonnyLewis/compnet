@@ -11,7 +11,7 @@
 
 - Supplementary Material: [pdf](https://github.com/xuliangcs/compnet/blob/main/Supplementary%20Material.pdf)
 
-- Pretrained Models: [[]]() 
+- Pretrained Models: ...
 
 - Publicly Available Datasets: [Tongji](https://sse.tongji.edu.cn/linzhang/contactlesspalm/index.htm), [IITD](https://www4.comp.polyu.edu.hk/~csajaykr/IITD/Database_Palm.htm), [REST](www.regim.org/publications/databases/regim-sfax-tunisian-hand-database2016-rest2016/),[NTU](https://github.com/BFLTeam/NTU_Dataset), [XJTU-UP](https://gr.xjtu.edu.cn/en/web/bell)
 
