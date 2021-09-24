@@ -1,23 +1,17 @@
 # CompNet
+
 [CompNet: Competitive Neural Network for Palmprint Recognition Using Learnable Gabor Kernels](https://ieeexplore.ieee.org/document/9512475)
 
+
 <img src="./res/compnet.png" alt="Framework of the CompNet" style="zoom:80%;" />
-
-
-
-
 
 ## 1. Supplementary Materials
 
 - Supplementary Material: [pdf](https://github.com/xuliangcs/compnet/blob/main/Supplementary%20Material.pdf)
 
-- Pretrained Models: [...](https://drive.google.com/drive/folders/1TuqQVI0T9pBVr2jQKLY40jbZ8ZMQLfie?usp=sharing)
+- Pretrained Models: [@](https://drive.google.com/drive/folders/1TuqQVI0T9pBVr2jQKLY40jbZ8ZMQLfie?usp=sharing)
 
 - Publicly Available Datasets: [Tongji](https://sse.tongji.edu.cn/linzhang/contactlesspalm/index.htm), [IITD](https://www4.comp.polyu.edu.hk/~csajaykr/IITD/Database_Palm.htm), [REST](www.regim.org/publications/databases/regim-sfax-tunisian-hand-database2016-rest2016/),[NTU](https://github.com/BFLTeam/NTU_Dataset), [XJTU-UP](https://gr.xjtu.edu.cn/en/web/bell)
-
-
-
-
 
 ## 2. Visualizations
 ![](./res/05_cb2_gabor.gif)
