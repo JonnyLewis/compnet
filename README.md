@@ -11,7 +11,7 @@
 
 - Supplementary Material: [pdf](https://github.com/xuliangcs/compnet/blob/main/Supplementary%20Material.pdf)
 
-- Pretrained Models: ...
+- Pretrained Models: [...](https://drive.google.com/drive/folders/1TuqQVI0T9pBVr2jQKLY40jbZ8ZMQLfie?usp=sharing)
 
 - Publicly Available Datasets: [Tongji](https://sse.tongji.edu.cn/linzhang/contactlesspalm/index.htm), [IITD](https://www4.comp.polyu.edu.hk/~csajaykr/IITD/Database_Palm.htm), [REST](www.regim.org/publications/databases/regim-sfax-tunisian-hand-database2016-rest2016/),[NTU](https://github.com/BFLTeam/NTU_Dataset), [XJTU-UP](https://gr.xjtu.edu.cn/en/web/bell)
 
@@ -36,7 +36,7 @@
 
 **CB17x17_Conv2** feature maps obtained at different epoch
 
-
+> In above, each row represents the feature maps obtained from one ROI image, and each column represents a single channel.
 
 
 
@@ -50,17 +50,13 @@ author={Liang, Xu and Yang, Jinyang and Lu, Guangming and Zhang, David},
 journal={IEEE Signal Processing Letters},   
 title={CompNet: Competitive Neural Network for Palmprint Recognition Using Learnable Gabor Kernels},   
 year={2021},  
-volume={},  
+volume={28},  
 number={},  
-pages={1-1},  
+pages={1739-1743},  
 doi={10.1109/LSP.2021.3103475}}
 ```
 
-X. Liang, J. Yang, G. Lu and D. Zhang, "CompNet: Competitive Neural  Network for Palmprint Recognition Using Learnable Gabor Kernels," IEEE Signal Processing Letters, doi: 10.1109/LSP.2021.3103475.
-
-
-
-
+X. Liang, J. Yang, G. Lu and D. Zhang, "CompNet: Competitive Neural Network for Palmprint Recognition Using Learnable Gabor Kernels," in IEEE Signal Processing Letters, vol. 28, pp. 1739-1743, 2021, doi: 10.1109/LSP.2021.3103475.
 
 
 
@@ -72,6 +68,9 @@ X. Liang, J. Yang, G. Lu and D. Zhang, "CompNet: Competitive Neural  Network for
 - python-3.7.4
 - anaconda-4.9.0
 - opencv-3.2.7 
+- numpy-1.16.4
+- sklearn-0.21.3
+- scipy-1.3.1
 
 
 **Configurations**
@@ -158,11 +157,11 @@ Portions of the research use the REST'2016 Database collected by the Research Gr
 
 ## Other References
 
-[1] Deng,  J.  Guo,  N.  Xue  and  S.  Zafeiriou,  “ArcFace:  Additive  angularmargin  loss  for  deep  face  recognition,” in Proc. IEEE/CVF Conf.Comput. Vis. Pattern Recognit., Jun. 2019, pp. 4690–4699.
+[1] J. Deng, J. Guo,  N. Xue  and  S.  Zafeiriou,  “ArcFace:  Additive  angularmargin  loss  for  deep  face  recognition,” in Proc. IEEE/CVF Conf.Comput. Vis. Pattern Recognit., Jun. 2019, pp. 4690–4699.
 
-[2] Chen, W. Li, L. Sun, X. Ning, L. Yu, and L. Zhang, “LGCN: LearnableGabor convolution network for human gender recognition in the wild,” IEICE Trans. Inf. Syst., vol. E102D no. 10, pp. 2067–2071, Oct. 2019.
+[2] Arcface PyTorch Implementation  (`ArcMarginProduct`). [Online]. Available: [https://github.com/ronghuaiyang/arcface-pytorch](https://github.com/ronghuaiyang/arcface-pytorch)
 
-[3] Arcface PyTorch Implementation. [Online]. Available: [https://github.com/ronghuaiyang/arcface-pytorch](https://github.com/ronghuaiyang/arcface-pytorch) (`ArcMarginProduct`)
+[3] P. Chen, W. Li, L. Sun, X. Ning, L. Yu, and L. Zhang, “LGCN: LearnableGabor convolution network for human gender recognition in the wild,” IEICE Trans. Inf. Syst., vol. E102D no. 10, pp. 2067–2071, Oct. 2019.
 
 [4] A. Genovese, V. Piuri, K. N. Plataniotis and F. Scotti, “PalmNet: Gabor-PCA convolutional networks for touchless palmprint recognition,” IEEE Trans. Inf. Forensics Secur., vol. 14, no. 12, pp. 3160–3174, Dec. 2019. doi: 10.1109/TIFS.2019.2911165. [PalmNet](https://github.com/AngeloUNIMI/PalmNet)
 
