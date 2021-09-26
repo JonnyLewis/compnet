@@ -42,7 +42,7 @@ trainset =MyDataset(txt=train_set_file, transforms=None, train=False)
 testset =MyDataset(txt=test_set_file, transforms=None, train=False)
 
 
-batch_size = 128
+batch_size = 32#128
 
 data_loader_train = DataLoader(dataset=trainset, batch_size=batch_size, shuffle=False)
 data_loader_test = DataLoader(dataset=testset, batch_size=batch_size, shuffle=False)

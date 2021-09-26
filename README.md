@@ -5,7 +5,7 @@
 
 <img src="./res/compnet.png" alt="Framework of the CompNet" style="zoom:80%;" />
 
-## 1. Supplementary Materials
+## 1. Related Materials
 
 - Supplementary Material: [pdf](https://github.com/xuliangcs/compnet/blob/main/Supplementary%20Material.pdf)
 
@@ -30,7 +30,7 @@
 
 **CB17x17_Conv2** feature maps obtained at different epoch
 
-> In above, each row represents the feature maps obtained from one ROI image, and each column represents a single channel.
+> Each row represents feature maps obtained from one ROI image, and each column corresponds to a single channel.
 
 
 
@@ -39,7 +39,7 @@
 If it helps you, we would like you to cite the following paper:
 
 ```tex
-@article{liang2021compnet,  
+@article{spl2021compnet,  
 author={Liang, Xu and Yang, Jinyang and Lu, Guangming and Zhang, David},  
 journal={IEEE Signal Processing Letters},   
 title={CompNet: Competitive Neural Network for Palmprint Recognition Using Learnable Gabor Kernels},   
