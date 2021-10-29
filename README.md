@@ -60,7 +60,7 @@ X. Liang, J. Yang, G. Lu and D. Zhang, "CompNet: Competitive Neural Network for 
 - pytorch-1.2.0 
 - torchvision-0.4.0
 - cuda 10.2
-- cudnn 7.6.5
+- cudnn 7.6.5.32
 - python-3.7.4
 - anaconda-4.9.0
 - opencv-3.2.7 
